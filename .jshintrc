@@ -1,0 +1,43 @@
+{
+    "curly": true,
+    "eqeqeq": true,
+    "eqnull": true,
+    "bitwise": false,
+    "camelcase": false,
+    "forin": true,
+    "immed": true,
+    "indent": 4,
+    "latedef": true,
+    "newcap": true,
+    "noarg": true,
+    "noempty": true,
+    "nonew": false,
+    "plusplus": false,
+    "regexp": true,
+    "undef": true,
+    "unused": false,
+    "trailing": true,
+    "maxparams": 10,
+    "maxdepth": 5,
+    "maxstatements": 50,
+    "maxcomplexity": false,
+    "smarttabs": true,
+    "sub": true,
+
+    "browser": false,
+    "node": true,
+
+    "globals": {
+        "process": true,
+        "setTimeout": true,
+        "require": true,
+        "console": true,
+        "module": true,
+        "GLOBAL": true,
+        "describe": true,
+        "before": true,
+        "it": true,
+        "clientSockets": true,
+        "__dirname": true
+    }
+}
