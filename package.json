@@ -2,6 +2,14 @@
     "name": "AntColony",
     "version": "1.0.0",
     "description": "DHT Search Engine",
+    "author": {
+        "name": "keenwon",
+        "email": "semanwmj@yeah.net"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/keenwon/antcolony.git"
+    },
     "devDependencies": {
         "grunt": "*",
         "grunt-contrib-jasmine": "^0.7.0",
