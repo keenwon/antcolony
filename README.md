@@ -19,4 +19,4 @@ AntColony（Github）是findit磁力搜索引擎的核心。用来在DHT网络�
 
 比较大的一个K桶（bucket）；infohash就是已经收集到的infohashs（worker收集来的，male会用来下载种子）；remoteNodes是worker新认识的节点，会依次“拜访”的，目前只保存最新的10w个（一方面我的VPS内存小，另一方面真没必要记录太多）；sysInfo会记录一些统计信息，例如发出多少次请求，累积收集多少infohashs，目前已经发出15亿次Request，这个频率是可控的，worker太疯狂的话，VPS扛不住。
 
-下面简单说下运行方法，安装好node，pm2，redis，mongodb之后，执行npm install 下载依赖的包，在根目录运行node startup worker 3000 启动一个worker监听3000端口；运行node startup male 1 启动id为1的male（female同理）。
+下面简单说下运行方法，安装好node，pm2，redis，mongodb之后，执行`npm install` 下载依赖的包，在根目录运行`node startup worker 3000`启动一个worker监听3000端口；运行`node startup male 1`启动id为1的male（female同理）。
