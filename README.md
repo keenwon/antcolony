@@ -22,11 +22,12 @@ AntColony（Github）是findit磁力搜索引擎的核心。用来在DHT网络�
 - remoteNodes：worker新认识的节点，会依次“拜访”的，目前只保存最新的10w个（一方面我的VPS内存小，另一方面真没必要记录太多）  
 - sysInfo：记录一些统计信息，例如发出多少次请求，累积收集多少infohashs，目前已经发出15亿次Request，这个频率是可控的，worker 太疯狂的话，VPS扛不住。  
   
-###运行方法
+###安装方法
 1. 安装node，pm2，redis，mongodb  
 2. 执行`npm install` 下载依赖的包  
 3. 修改`config.js`中相应的配置  
   
+###运行方法
 在根目录运行`node startup worker 3000`启动一个worker监听3000端口；运行`node startup male 1`启动id为1的male（female同理）。  
 
 更多内容查看 [http://keenwon.com/1436.html](http://keenwon.com/1436.html "http://keenwon.com/1436.html")  
