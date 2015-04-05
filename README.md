@@ -23,5 +23,5 @@ AntColony（Github）是findit磁力搜索引擎的核心。用来在DHT网络�
 - sysInfo：记录一些统计信息，例如发出多少次请求，累积收集多少infohashs，目前已经发出15亿次Request，这个频率是可控的，worker 太疯狂的话，VPS扛不住。  
   
 ###安装&运行方法
-详细的使用方法请查看[部署文档](https://github.com/keenwon/antcolony/blob/master/doc/%E9%83%A8%E7%BD%B2%E6%96%87%E6%A1%A3.md)
+详细的使用方法请查看[部署文档](https://github.com/keenwon/antcolony/blob/master/doc/%E9%83%A8%E7%BD%B2%E6%96%87%E6%A1%A3.md)  
 其他内容查看 [http://keenwon.com/1436.html](http://keenwon.com/1436.html "http://keenwon.com/1436.html")  
