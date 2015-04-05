@@ -44,7 +44,7 @@ module.exports = {
     worker: {
         3000: {
             sended: true, // 是否发送find_node
-            cycle: 20 // 周期，每隔多少秒发送一次find_node
+            cycle: 20 // 周期，每隔多少毫秒发送一次find_node。值越小，频率越高
         },
         3001: {
             sended: true,
