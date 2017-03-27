@@ -1,6 +1,6 @@
-# AntColony #
+# AntColony
 
-###介绍 
+### 介绍 
   
 AntColony（Github）是findit磁力搜索引擎的核心。用来在DHT网络中，收集活跃资源的infohash，下载并解析资源的种子文件，存入数据库等。AntColony是若干功能的合集，也可以单独运行其中的部分功能，所以起“蚁群”这个名字也是很贴切的（没错，我就是爱动物世界）。主要分一下几块：  
 - worker：爬虫，收集资源infohash，可以同时启动多个进程的worker，提高效率  
@@ -22,6 +22,7 @@ AntColony（Github）是findit磁力搜索引擎的核心。用来在DHT网络�
 - remoteNodes：worker新认识的节点，会依次“拜访”的，目前只保存最新的10w个（一方面我的VPS内存小，另一方面真没必要记录太多）  
 - sysInfo：记录一些统计信息，例如发出多少次请求，累积收集多少infohashs，目前已经发出15亿次Request，这个频率是可控的，worker 太疯狂的话，VPS扛不住。  
   
-###安装&运行方法
+### 安装&运行方法
+  
 详细的使用方法请查看[部署文档](https://github.com/keenwon/antcolony/blob/master/doc/%E9%83%A8%E7%BD%B2%E6%96%87%E6%A1%A3.md)  
 其他内容查看 [http://keenwon.com/1436.html](http://keenwon.com/1436.html "http://keenwon.com/1436.html")  
